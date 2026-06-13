@@ -219,6 +219,7 @@ em {
 
 .button:focus-visible,
 .footer a:focus-visible,
+.footer__back-top:focus-visible,
 .text-link:focus-visible,
 summary:focus-visible,
 input:focus-visible {
@@ -972,10 +973,10 @@ details[open] p {
 
 .footer {
   position: relative;
-  margin-top: 64px;
+  margin-top: 0;
   margin-bottom: 0;
   padding: clamp(54px, 7vw, 100px);
-  overflow: visible;
+  overflow: hidden;
   border-radius: 0;
   background:
     radial-gradient(circle at 14% 10%, rgba(212, 138, 113, 0.16), transparent 28%),
@@ -1129,13 +1130,12 @@ details[open] p {
 }
 
 .footer__back-top {
-  position: absolute;
+  position: relative;
   z-index: 3;
-  top: 0;
-  left: 50%;
   display: grid;
   width: 58px;
   height: 58px;
+  margin: 35px auto -29px;
   place-items: center;
   border: 6px solid var(--surface);
   border-radius: 50%;
@@ -1144,7 +1144,6 @@ details[open] p {
   font-size: 1rem;
   text-decoration: none;
   box-shadow: 0 12px 30px rgba(39, 23, 19, 0.18);
-  transform: translate(-50%, -50%);
   transition:
     background-color 180ms ease,
     transform 180ms ease;
@@ -1152,7 +1151,7 @@ details[open] p {
 
 .footer__back-top:hover {
   background: var(--white);
-  transform: translate(-50%, -56%);
+  transform: translateY(-4px);
 }
 
 .js .reveal {
@@ -1516,9 +1515,12 @@ details[open] p {
   }
 
   .footer {
-    margin-top: 52px;
     padding: 54px 24px 32px;
     text-align: center;
+  }
+
+  .footer__back-top {
+    margin-top: 23px;
   }
 
   .footer__main {
