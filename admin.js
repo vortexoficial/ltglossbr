@@ -353,7 +353,7 @@ const NEW_PRODUCT = {
   tag: "1 unidade",
   featured: false,
   promo: "",
-  image: { src: "./assets/por-do-sol.webp", alt: "", width: 1086, height: 1448 },
+  image: { src: "./assets/cereja.webp", alt: "", width: 1086, height: 1448 },
   shade: { label: "", dots: ["#b75f45"] },
   title: "LT Gloss",
   subtitle: "",

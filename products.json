@@ -2,38 +2,38 @@
   "updatedAt": "2026-08-07T18:17:28.480Z",
   "products": [
     {
-      "id": "por-do-sol",
+      "id": "cereja",
       "tag": "1 unidade",
       "featured": false,
       "promo": "",
       "image": {
-        "src": "./assets/por-do-sol.webp",
-        "alt": "LT Gloss Pôr do Sol",
+        "src": "./assets/cereja.webp",
+        "alt": "LT Gloss Cereja",
         "width": 1086,
         "height": 1448
       },
       "shade": {
         "label": "Tom vibrante",
         "dots": [
-          "#f05b13"
+          "#c0141e"
         ]
       },
       "title": "LT Gloss",
-      "subtitle": "Pôr do Sol",
+      "subtitle": "Cereja",
       "description": "Um tom quente e marcante para iluminar os lábios.",
       "oldPrice": "",
       "price": "49,90",
       "installments": "1x de R$ 49,90",
       "colors": {
-        "accent": "#ee5a12",
-        "accentDark": "#9d300d",
-        "price": "#c8430e"
+        "accent": "#c0141e",
+        "accentDark": "#770c13",
+        "price": "#a3111a"
       },
       "cta": {
-        "text": "Comprar Pôr do Sol",
+        "text": "Comprar Cereja",
         "href": "https://ev.braip.com/checkout/pla0xexw/chex0ork",
-        "from": "#ee5a12",
-        "to": "#9d300d",
+        "from": "#c0141e",
+        "to": "#770c13",
         "textColor": "#ffffff"
       }
     },
@@ -123,14 +123,14 @@
       "shade": {
         "label": "Leve os três",
         "dots": [
-          "#f05b13",
+          "#c0141e",
           "#713018",
           "#ccecf7"
         ]
       },
       "title": "Kit Leve 3",
       "subtitle": "1 de cada cor",
-      "description": "Pôr do Sol, Cacau e Véu juntos em uma promoção especial.",
+      "description": "Cacau, Cereja e Véu juntos em uma promoção especial.",
       "oldPrice": "De R$ 149,70",
       "price": "79,90",
       "installments": "ou 2x de R$ 47,32",

@@ -923,9 +923,9 @@ input:focus-visible {
 }
 
 .offer-card--sun {
-  --offer-accent: #ee5a12;
-  --offer-accent-dark: #9d300d;
-  --offer-glow: rgba(238, 90, 18, 0.28);
+  --offer-accent: #c0141e;
+  --offer-accent-dark: #770c13;
+  --offer-glow: rgba(192, 20, 30, 0.28);
 }
 
 .offer-card--cacao {
@@ -1116,7 +1116,7 @@ input:focus-visible {
 }
 
 .shade-dot--x {
-  background: #f05b13;
+  background: #c0141e;
 }
 
 .shade-dot--y {
@@ -1238,7 +1238,7 @@ input:focus-visible {
 }
 
 .offer-card--sun .offer-card__price strong {
-  color: #c8430e;
+  color: #a3111a;
 }
 
 .offer-card--cacao .offer-card__price strong {
